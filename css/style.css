@@ -100,6 +100,10 @@ h3 {
     text-align: left;
 }
 
+.item__deflection p {
+    text-align: center;
+}
+
 p {
     padding: 0px 0px 20px 0px;
     text-align: center;
@@ -131,7 +135,7 @@ img {
     overflow: auto;
     height: 400px;
     margin: 0px -21px 150px 90px;
-    padding: 0px;
+    padding: 0px 94px 0px 0px;
 }
 
 .item__deflection span,
