@@ -46,7 +46,7 @@ body {
     font-family: 'Cisco Sans';
     font-size: 20px;
     font-weight: normal;
-    background-color: rgba(155, 166, 179, 0.733);
+    background-color: rgba(54, 137, 231, 0.795);
     color: whitesmoke;
     text-shadow: 1px 1px 5px #000;
 }
@@ -135,7 +135,12 @@ img {
     overflow: auto;
     height: 400px;
     margin: 0px -21px 150px 90px;
-    padding: 0px 94px 0px 0px;
+    padding: 0px 28px 0px 0px;
+    background-color: rgba(255, 255, 255, 0.26);
+}
+
+.item__scroll p {
+    text-align: center;
 }
 
 .item__deflection span,
