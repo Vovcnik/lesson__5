@@ -1,0 +1,195 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300&display=swap&subset=cyrillic-ext');
+@font-face {
+    font-family: 'Cisco Sans';
+    src: url('../fonts/CiscoSans.woff2') format('woff2'), url('../fonts/CiscoSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Cisco Sans';
+    font-size: 20px;
+    font-weight: normal;
+    background-color: rgba(155, 166, 179, 0.733);
+    color: whitesmoke;
+    text-shadow: 1px 1px 5px #000;
+}
+
+h1 {
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 45px;
+    color: #e99a08ec;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    text-shadow: 1px 1px 1px #000, 1px 5px 5px rgb(238, 9, 9);
+}
+
+h2,
+h3 {
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 30px;
+    line-height: 130%;
+    margin: 0px 0px 25px 0px;
+    text-align: center;
+    font-weight: 700;
+    color: red;
+    text-shadow: 1px 3px 10px rgb(214, 250, 114), 1px 5px 5px rgb(24, 23, 23);
+}
+
+.header {
+    max-width: 1000px;
+    text-align: right;
+    margin: 0px 150px 0px 0px;
+    margin: 0 auto;
+}
+
+.nav {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.nav li {
+    display: inline-block;
+    margin: 0px 30px 0px 0px;
+}
+
+.main {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.items p {
+    text-align: left;
+}
+
+p {
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+}
+
+.item {
+    margin: 0px 0px 30px 0px;
+    text-align: center;
+}
+
+img {
+    margin: 0px 0px 30px 0px;
+}
+
+.item__kinds {
+    color: #000;
+}
+
+.item__form {
+    color: rgb(77, 25, 221);
+    overflow: hidden;
+}
+
+.title__scroll {
+    color: #000;
+}
+
+.item__scroll {
+    overflow: auto;
+    height: 400px;
+    margin: 0px -21px 150px 90px;
+    padding: 0px;
+}
+
+.item__deflection span,
+.item span {
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: rebeccapurple;
+}
+
+.item__deflection li,
+.item__design li {
+    margin: 0px 0px 20px 0px;
+    text-indent: 40px;
+}
+
+.imagess {
+    overflow: hidden;
+    margin: 0 auto;
+    color: #000;
+}
+
+.imeges {
+    height: 300px;
+    overflow: auto;
+    margin: 0px -21px 150px 90px;
+    padding: 0px;
+}
+
+.imeges img {
+    margin: 0px -6px 0px 0px;
+}
+
+.item__design {
+    text-transform: capitalize;
+}
+
+.item__choice {
+    color: rgb(19, 214, 78);
+    text-shadow: 1px 3px 3px #000;
+}
+
+.footer {
+    text-align: center;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+.footer li a {
+    text-decoration: underline;
+}
+
+.footer p {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    text-align-last: left;
+    margin: 0px 0px 0px 50px;
+    text-shadow: 1px 1px 5px #fff;
+}
